@@ -202,7 +202,7 @@ module.exports = {
 
     // specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len
-    'max-len': ['error', 100, 2, {
+    'max-len': ['error', 120, 2, {
       ignoreUrls: true,
       ignoreComments: false,
       ignoreRegExpLiterals: true,
@@ -330,9 +330,8 @@ module.exports = {
     // disallow use of the Object constructor
     'no-new-object': 'error',
 
-    // disallow use of unary operators, ++ and --
     // https://eslint.org/docs/rules/no-plusplus
-    'no-plusplus': 'error',
+    'no-plusplus': 'off',
 
     // disallow certain syntax forms
     // https://eslint.org/docs/rules/no-restricted-syntax
@@ -398,7 +397,7 @@ module.exports = {
 
     // enforce line breaks between braces
     // https://eslint.org/docs/rules/object-curly-newline
-    'object-curly-newline': ['error', {
+    'object-curly-newline': ['off', {
       ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
       ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
       ImportDeclaration: { minProperties: 4, multiline: true, consistent: true },
@@ -459,8 +458,8 @@ module.exports = {
     // https://eslint.org/docs/rules/require-jsdoc
     'require-jsdoc': 'off',
 
-    // require or disallow use of semicolons instead of ASI
-    semi: ['error', 'always'],
+    // 不管分号
+    'semi': 'off',
 
     // enforce spacing before and after semicolons
     'semi-spacing': ['error', { before: false, after: true }],
