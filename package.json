@@ -1,0 +1,62 @@
+{
+  "name": "eslint-config-vxichina",
+  "version": "0.1.0",
+  "description": "VXIChina's base JS ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esbu-vxichina-com/eslint-config-vxichina"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "vxichina",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "author": "fluentwind",
+  "contributors": [
+    {
+      "name": "fluentwind",
+      "email": "1093749925@qq.com",
+      "url": "https://github.com/fluentwind"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esbu-vxichina-com/eslint-config-vxichina/issues"
+  },
+  "homepage": "https://github.com/esbu-vxichina-com/eslint-config-vxichina",
+  "devDependencies": {
+    "@babel/runtime": "^7.12.5",
+    "babel-preset-airbnb": "^4.5.0",
+    "babel-tape-runner": "^3.0.0",
+    "eclint": "^2.8.1",
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-find-rules": "^3.6.1",
+    "in-publish": "^2.0.1",
+    "safe-publish-latest": "^1.1.4",
+    "tape": "^5.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.10",
+    "object.assign": "^4.1.2",
+    "object.entries": "^1.1.2",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
