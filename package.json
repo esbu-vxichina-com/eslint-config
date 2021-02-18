@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-vxichina",
+  "name": "@vxichina/eslint-config-vxichina",
   "version": "0.1.0",
   "description": "VXIChina's base JS ESLint config, following our styleguide",
   "main": "index.js",
