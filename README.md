@@ -21,5 +21,5 @@ npm install eslint eslint-plugin-import @vxichina/eslint-config eslint-plugin-vu
 
 
 ### VXIChina JavaScript 风格指南
-[风格指南](https://github.com/esbu-vxichina-com/eslint-config/blob/main/styleGuide.md)
+[风格指南](https://github.com/esbu-vxichina-com/eslint-config/blob/master/styleGuide.md)
 
