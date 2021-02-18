@@ -1,11 +1,14 @@
 # VXIChina JavaScript 风格指南
-
 [![Downloads](http://www.vxichina.cn/images/logo.png)](https://www.npmjs.com/package/@vxichina/eslint-config)
+
+[![NPM](https://badgen.net/npm/v/@vxichina/eslint-config)](https://www.npmjs.com/package/@vxichina/eslint-config)
+[![NPM](https://badgen.net/npm/dm/@vxichina/eslint-config)](https://www.npmjs.com/package/@vxichina/eslint-config)
 
 ## 其他风格
 
   1. [Vue官方风格指南](https://cn.vuejs.org/v2/style-guide/)
   1. [eslint-plugin-vue](https://eslint.vuejs.org/)
+  1. CSS-BEM规范，适用于无作用域隔离
 
 
 ## 目录
