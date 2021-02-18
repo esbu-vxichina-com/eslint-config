@@ -32,8 +32,8 @@ module.exports = {
     // disallow control characters in regular expressions
     'no-control-regex': 'error',
 
-    // disallow use of debugger
-    'no-debugger': 'error',
+    // allow debugger during development
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
     // disallow duplicate arguments in functions
     'no-dupe-args': 'error',

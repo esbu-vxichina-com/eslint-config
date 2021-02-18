@@ -17,7 +17,7 @@ module.exports = {
 
     // disallow specific globals
     'no-restricted-globals': [
-      'error',
+      'off',
       {
         name: 'isFinite',
         message:

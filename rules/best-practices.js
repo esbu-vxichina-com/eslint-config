@@ -58,7 +58,7 @@ module.exports = {
 
     // enforce a maximum number of classes per file
     // https://eslint.org/docs/rules/max-classes-per-file
-    'max-classes-per-file': ['error', 1],
+    'max-classes-per-file': ['off', 1],
 
     // disallow the use of alert, confirm, and prompt
     'no-alert': 'warn',
@@ -192,7 +192,7 @@ module.exports = {
     // disallow reassignment of function parameters
     // disallow parameter object manipulation except for specific exclusions
     // rule: https://eslint.org/docs/rules/no-param-reassign.html
-    'no-param-reassign': ['error', {
+    'no-param-reassign': ['off', {
       props: true,
       ignorePropertyModificationsFor: [
         'acc', // for reduce accumulators
@@ -327,7 +327,7 @@ module.exports = {
 
     // require using Error objects as Promise rejection reasons
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
-    'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
+    'prefer-promise-reject-errors': ['off', { allowEmptyReject: true }],
 
     // Suggest using named capture group in regular expression
     // https://eslint.org/docs/rules/prefer-named-capture-group
@@ -337,8 +337,8 @@ module.exports = {
     // TODO; enable, semver-minor, once eslint v6.4 is required (which is a major)
     'prefer-regex-literals': 'off',
 
-    // require use of the second argument for parseInt()
-    radix: 'error',
+    // 不严格：require use of the second argument for parseInt()
+    radix: 'off',
 
     // require `await` in `async function` (note: this is a horrible rule that should never be used)
     // https://eslint.org/docs/rules/require-await
